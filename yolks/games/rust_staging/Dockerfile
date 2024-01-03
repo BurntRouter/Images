@@ -1,8 +1,8 @@
 FROM 		--platform=$TARGETOS/$TARGETARCH debian:bullseye-slim
 
-LABEL       author="Isaac A." maintainer="isaac@isaacs.site"
+LABEL       author="Router" maintainer="router@burntrouter.info"
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/BurntRouter/Images"
 LABEL       org.opencontainers.image.licenses=MIT
 
 ENV         DEBIAN_FRONTEND=noninteractive
