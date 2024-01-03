@@ -2,7 +2,7 @@ FROM 		--platform=$TARGETOS/$TARGETARCH debian:bullseye-slim
 
 LABEL       author="Router" maintainer="router@burntrouter.info"
 
-LABEL       org.opencontainers.image.source="https://github.com/BurntRouter/Images"
+LABEL       org.opencontainers.image.source="https://github.com/BurntRouter/Pterodactyl"
 LABEL       org.opencontainers.image.licenses=MIT
 
 ENV         DEBIAN_FRONTEND=noninteractive
